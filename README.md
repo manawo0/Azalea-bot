@@ -4,6 +4,10 @@
 ![Repository version](https://img.shields.io/github/package-json/v/reallyslimy/project-pyro/main?style=flat-square)
 <br>
 
+**Slime Commands NPM package version:**
+![SlimeCommands version](https://img.shields.io/npm/v/slimecommands?style=flat-square)
+<br>
+
 This is **Project: Pyro**, a bot aimed to have all in one commands to avoid having a bunch of bots with similar functions inside a server.
 
 ## What does Project: Pyro have to offer?

@@ -4,7 +4,9 @@
 ![Repository version](https://img.shields.io/github/package-json/v/reallyslimy/project-pyro/main?style=flat-square)
 <br>
 
-**Slime Commands NPM package version:**
+**Slime Commands NPM package version**
+<br>
+
 ![SlimeCommands version](https://img.shields.io/npm/v/slimecommands?style=flat-square)
 <br>
 

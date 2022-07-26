@@ -17,4 +17,4 @@ No worries! I've made a documentation just for you.
 
 You're a developer? You're a user? We have them both!
 
-(Project: Pyro official documentation)[https://slimy.gitbook.io/project-pyro/]
+[Project: Pyro official documentation](https://slimy.gitbook.io/project-pyro/)

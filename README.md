@@ -1,6 +1,8 @@
 # Project: Pyro
 
 ![Reposiroty license](https://img.shields.io/github/license/reallyslimy/project-pyro?label=License&style=flat-square)
+
+<br>
 This is **Project: Pyro**, a bot aimed to have all in one commands to avoid having a bunch of bots with similar functions inside a server.
 
 ## What does Project: Pyro have to offer?

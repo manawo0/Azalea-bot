@@ -1,4 +1,5 @@
 const { ApplicationCommandType } = require('discord.js');
+const { pingBot } = require('../../functions/Commands/general/ping')
 
 module.exports = {
 	name: 'ping',
@@ -6,6 +7,6 @@ module.exports = {
 	type: ApplicationCommandType.ChatInput,
 	cooldown: 3000,
 	run: async (client, interaction) => {
-		interaction.reply({ content: `🏓 Pong! Latency: **${Math.round(client.ws.ping)} ms**` })
+		pingBot(client, interaction);
 	}
 };

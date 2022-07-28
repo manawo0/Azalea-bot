@@ -3,6 +3,9 @@ const {
   GatewayIntentBits,
   Partials,
   Collection,
+  ActivityType,
+  PresenceUpdateStatus,
+  Presence
 } = require("discord.js");
 
 const {
@@ -26,7 +29,7 @@ const client = new Client({
     GuildMessageReactions,
     GuildPresences,
   ],
-  partials: [User, Message, GuildMember, ThreadMember, Channel],
+  partials: [User, Message, GuildMember, ThreadMember, Channel, PresenceUpdateStatus, Presence],
 });
 
 client.commands = new Collection();
@@ -34,20 +37,13 @@ client.commands = new Collection();
 require("dotenv").config();
 
 module.exports = client;
-
 client
   .login(process.env.DC_TOKEN)
   .then(() => {
     slimecmd.load(client);
 
     // Set user presence
-    client.user.setPresence({
-      activities: [
-        {
-          name: "/help, all my guilds.",
-        },
-      ],
-    });
+    client.user.setActivity({name: "Test", type: ActivityType.Streaming, url: "https://twitch.tv/monstercat"})
 
     // Connect to db
     if (!process.env.DATABASE_URL) return;

@@ -20,6 +20,10 @@ module.exports = {
           choices: [
             { name: "Spanish", value: "es" },
             { name: "English", value: "en" },
+            {name: "Portuguese", value: "pt"},
+            {name: "Russian", value: "ru"},
+            {name: "Swedish", value: "se"},
+            {name: "Danish", value: "dk"}
           ],
         },
       ],
@@ -44,7 +48,7 @@ module.exports = {
     try {
       switch (options._subcommand) {
         case "set": {
-          if (setLang == "en" || setLang == "es") {
+          if (setLang == "en" || setLang == "es" || setLang == "pt" || setLang == "dk" || setLang == "ru" || setLang == "se") {
             await DB.findOneAndUpdate(
               {
                 GuildID: guild.id,

@@ -1,8 +1,8 @@
 {
   "afkSystem": {
-    "mentionAfk": "user went afk time\n **Status**: status",
+    "mentionAfk": "user went afk time\n **Reason**: status",
     "setAfkStatus": "**Went AFK**",
-    "setStatusAfk": "**Status**:",
+    "setStatusAfk": "**Reason**:",
     "setBotDoUserMentionAfk": "I'll tell whoever mentions you.",
     "removeAfkStatus": "You AFK status has been removed."
   },
@@ -16,5 +16,8 @@
     "howToUseHelp": "**How to use the Language Command**",
     "modalAfkReason": "What's your reason for being AFK?",
     "conextModalAfkToOtherPerson": "You can't put another person as AFK, only yourself."
+  },
+  "ping": {
+    "pingMsg": "Pong! Latency: "
   }
 }

@@ -11,7 +11,7 @@ async function submitModalAfkSystem(client, interaction) {
     .setAuthor({ name: interaction.user.tag });
 
 
-    await interaction.deferReply({ephemeral: true});
+    await interaction.deferReply();
     const afkReason = interaction.fields.getTextInputValue("afkReason");
 
     if(afkReason) {

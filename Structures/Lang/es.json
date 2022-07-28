@@ -16,5 +16,8 @@
     "howToUseHelp": "**Como usar el comando lang**",
     "modalAfkReason": "Por qué te vas AFK?",
     "conextModalAfkToOtherPerson": "No puedes poner a otra persona que no sea tú mismo/a AFK."
+  },
+  "ping": {
+    "pingMsg": "Pong! Latencia: "
   }
 }

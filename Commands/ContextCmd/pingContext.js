@@ -1,8 +1,9 @@
 const { Client, ContextMenuInteraction, ApplicationCommandType } = require('discord.js');
-const { pingBot } = require('../../functions/Commands/general/ping')
+const { pingBot } = require('../../Functions/Commands/Public/ping')
+
 module.exports = {
     name: "Ping bot",
-    type: ApplicationCommandType.Message,
+    type: ApplicationCommandType.User,
     /**
      * @param { Client } client
      * @param { ContextMenuInteraction } interaction

@@ -1,0 +1,23 @@
+{
+  "afkSystem": {
+    "mentionAfk": "user went afk time\n **Reason**: status",
+    "setAfkStatus": "**Went AFK**",
+    "setStatusAfk": "**Reason**:",
+    "setBotDoUserMentionAfk": "I'll tell whoever mentions you.",
+    "removeAfkStatus": "You AFK status has been removed."
+  },
+  "LangSystem": {
+    "botLanguage": "Language of Pyro was changed to: ",
+    "botLangNotSupported": "You tried to put a language not supported by Pyro.",
+    "supLangTitle": "**Supported Languages:**",
+    "supLangs": "- Spanish (es)\n - English (en)",
+    "howToUseTitle": "**How to use the language**",
+    "howToUseDesc": "If you happend to don't use the choices provided by Pyro, you need to put the language as country codes. Ex: **for spanish would be es**.\n Here you have all the codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+    "howToUseHelp": "**How to use the Language Command**",
+    "modalAfkReason": "What's your reason for being AFK?",
+    "conextModalAfkToOtherPerson": "You can't put another person as AFK, only yourself."
+  },
+  "ping": {
+    "pingMsg": "Pong! Latency: "
+  }
+}

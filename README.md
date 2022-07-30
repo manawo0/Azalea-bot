@@ -12,6 +12,7 @@
 
 This is **Project: Pyro**, a bot aimed to have all in one commands to avoid having a bunch of bots with similar functions inside a server.
 
+Added a lot of languages.
 ## What does Project: Pyro have to offer?
 - Completly unlocked functionalities, there's no payment for functions in this bot.
 - Completly open source, users can contribute to the bot and require changes as they please.

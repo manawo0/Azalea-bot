@@ -1,0 +1,23 @@
+{
+    "afkSystem": {
+      "mentionAfk": "Пользователь пошел афк\n **причина**: статус",
+      "setAfkStatus": "**Пошел АФК**",
+      "setStatusAfk": "**причина**:",
+      "setBotDoUserMentionAfk": "Я скажу вам, кто упоминает вас.",
+      "removeAfkStatus": "Ваш статус AFK был удален."
+    },
+    "LangSystem": {
+      "botLanguage": "Язык Пиро(Pyro) был изменен на: ",
+      "botLangNotSupported": "Вы пытались использовать язык, не поддерживаемый Пиро(Pyro).",
+      "supLangTitle": "**Поддерживаемые языки:**",
+      "supLangs": "- Spanish (es)\n - English (en)",
+      "howToUseTitle": "**Как использовать язык**",
+      "howToUseDesc": "Если вы не используете варианты, предоставляемые Пиро(Pyro), вам нужно указать язык как код страны. Ex: **для испанского было бы es**.\n Вот вам и все коды: https://ru.wikipedia.org/wiki/ISO_3166-2",
+      "howToUseHelp": "**Как использовать языковую команду**",
+      "modalAfkReason": "По какой причине ты AFK?",
+      "conextModalAfkToOtherPerson": "Вы не можете поставить другого человека в качестве AFK, только себя."
+    },
+    "ping": {
+      "pingMsg": "Pong! Задержка: "
+    }
+  }

@@ -1,0 +1,23 @@
+{
+    "afkSystem": {
+      "mentionAfk": "Användaren gick AFK\n **Orsak**: status",
+      "setAfkStatus": "**Gick AFK**",
+      "setStatusAfk": "**Orsak**:",
+      "setBotDoUserMentionAfk": "Jag ska berätta vem som nämner dig.",
+      "removeAfkStatus": "Din AFK-status har tagits bort."
+    },
+    "LangSystem": {
+      "botLanguage": "Pyro's språket har ändrats till: ",
+      "botLangNotSupported": "Du försökte använda ett språk som inte stöds av Pyro.",
+      "supLangTitle": "**Tillgängliga språk:**",
+      "supLangs": "- Spanish (es)\n - English (en)",
+      "howToUseTitle": "**Byte av språk**",
+      "howToUseDesc": "Om du inte använder alternativen från Pyro måste du använda en landskod. t.ex.: **För spanska skulle det vara es**.\n Här är alla landskoder: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+      "howToUseHelp": "**Hjälp för språkkommandot**",
+      "modalAfkReason": "Vad är din anledning till att vara AFK?",
+      "conextModalAfkToOtherPerson": "Du kan inte AFK en annan person, bara dig själv."
+    },
+    "ping": {
+      "pingMsg": "Pong! Latens: "
+    }
+  }

@@ -3,9 +3,9 @@ const {
   GatewayIntentBits,
   Partials,
   Collection,
-  ActivityType,
   PresenceUpdateStatus,
-  Presence
+  Presence,
+  ReactionManager
 } = require("discord.js");
 
 const {
@@ -16,9 +16,9 @@ const {
   GuildMessageReactions,
   GuildPresences,
 } = GatewayIntentBits;
-const { User, Message, GuildMember, ThreadMember, Channel } = Partials;
+
+const { User, Message, GuildMember, ThreadMember, Channel, Reaction } = Partials;
 const slimecmd = require("slimecommands");
-const mongoose = require("mongoose");
 
 const client = new Client({
   intents: [
@@ -28,8 +28,9 @@ const client = new Client({
     GuildMessages,
     GuildMessageReactions,
     GuildPresences,
+    GuildMessageReactions
   ],
-  partials: [User, Message, GuildMember, ThreadMember, Channel, PresenceUpdateStatus, Presence],
+  partials: [User, Message, GuildMember, ThreadMember, Channel, PresenceUpdateStatus, Presence, Reaction],
 });
 
 client.commands = new Collection();
@@ -40,24 +41,9 @@ module.exports = client;
 client
   .login(process.env.DC_TOKEN)
   .then(() => {
+
     slimecmd.load(client);
 
-    // Set user presence
-    client.user.setActivity({name: "Test", type: ActivityType.Streaming, url: "https://twitch.tv/monstercat"})
-
-    // Connect to db
-    if (!process.env.DATABASE_URL) return;
-    mongoose
-      .connect(process.env.DATABASE_URL, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-      })
-      .then(() => {
-        console.log("Client is now connected to the database");
-      })
-      .catch((err) => {
-        console.error(err);
-      });
   })
   .catch((err) => {
     console.error(err);

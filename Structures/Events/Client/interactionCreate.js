@@ -1,20 +1,18 @@
-const { EmbedBuilder, Collection, PermissionsBitField, InteractionType } = require("discord.js");
+const { EmbedBuilder, Collection, PermissionsBitField } = require("discord.js");
 const ms = require("ms");
 require("dotenv").config();
 const cooldown = new Collection();
-const { submitModalAfkSystem } = require('../../../Functions/Commands/Systems/modalAfkSystem');
+const { setModals } = require('../../../Functions/Commands/Systems/Modal Submits/interactionCreateModals');
 
 module.exports = {
   name: "interactionCreate",
   on: true,
   async execute(interaction, client) {
-    if(interaction.type === InteractionType.ModalSubmit){
-      if(interaction.customId == "afkReasonModal") {
-        await submitModalAfkSystem(client, interaction);
-      }
-      if(interaction.customId !== "afkReasonModal") return;
-    }
+    
+    //function Import Sets The modals needed
+    setModals(client, interaction);
 
+    
     const Command = client.commands.get(interaction.commandName);
     if (interaction.type == 4) {
       if (Command.autocomplete) {

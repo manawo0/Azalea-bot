@@ -1,6 +1,6 @@
 const { detectLang } = require('../Systems/detectLangSystem');
 
-async function pingBot(client, interaction) {
+async function execPing(client, interaction) {
   const LangImport = await detectLang(interaction.guild.id);
   const Lang = require("../"+LangImport);
  
@@ -9,4 +9,4 @@ async function pingBot(client, interaction) {
   });
 }
 
-module.exports = { pingBot };
+module.exports = { execPing };

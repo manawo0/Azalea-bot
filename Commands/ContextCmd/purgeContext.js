@@ -3,15 +3,16 @@ const {
   ContextMenuInteraction,
   ApplicationCommandType
 } = require("discord.js");
-const { afkModalCreate } = require('../../Functions/Commands/Systems/Modal Create/afkSystemModalCreate')
+
+const {purgeModalCreate} = require('../../Functions/Commands/Systems/Modal Create/purgeModalCreate')
 module.exports = {
-  name: "Go AFK",
-  type: ApplicationCommandType.User,
+  name: "Purge Messages",
+  type: ApplicationCommandType.Message,
   /**
    * @param { Client } client
    * @param { ContextMenuInteraction } interaction
    */
   run: async (client, interaction) => {
-    afkModalCreate(client, interaction);
+    purgeModalCreate(client, interaction)
   },
 };

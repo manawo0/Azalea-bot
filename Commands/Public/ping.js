@@ -1,5 +1,5 @@
 const { ApplicationCommandType } = require("discord.js");
-const { pingBot } = require("../../Functions/Commands/Public/ping");
+const { execPing } = require("../../Functions/Commands/Public/ping");
 
 module.exports = {
   name: "ping",
@@ -8,6 +8,6 @@ module.exports = {
   cooldown: 3000,
   run: async (client, interaction) => {
     // Make the ping command
-    pingBot(client, interaction);
+    execPing(client, interaction);
   },
 };

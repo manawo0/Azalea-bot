@@ -1,10 +1,10 @@
 const { EmbedBuilder } = require('discord.js');
-const DB = require("../../../Structures/Schemas/AFKSystem");
-const { detectLang } = require('../../../Functions/Commands/Systems/detectLangSystem');
+const DB = require("../../../../Structures/Schemas/AFKSystem");
+const { detectLang } = require('../detectLangSystem');
 
 async function submitModalAfkSystem(client, interaction) {
     const LangImport = await detectLang(interaction.guild.id);
-    const Lang = require("../"+LangImport);
+    const Lang = require("../../"+LangImport);
 
     const Embed = new EmbedBuilder()
     .setThumbnail(interaction.user.displayAvatarURL({ dynamic: true }))

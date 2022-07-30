@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./Structures/index.js",
-    "dev": "nodemon ./Structures/index.js"
+    "dev": "nodemon ./Structures/index.js",
+    "uglify": "grunt uglify:minifyJs"
   },
   "author": "slimy",
   "license": "MIT",
@@ -26,6 +27,8 @@
     "slimecommands": "^0.1.6"
   },
   "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-contrib-uglify": "^5.2.2",
     "nodemon": "^2.0.19"
   }
 }

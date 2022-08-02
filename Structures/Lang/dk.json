@@ -1,6 +1,6 @@
 {
     "afkSystem": {
-      "mentionAfk": "Bruger gik AFK\n **Grund**: status",
+      "mentionAfk": "user gik AFK time\n **Grund**: status",
       "setAfkStatus": "**Gik AFK**",
       "setStatusAfk": "**Grund**:",
       "setBotDoUserMentionAfk": "Jeg vil fortælle dig hvem der nævner dig.",

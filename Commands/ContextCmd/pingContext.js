@@ -1,5 +1,5 @@
 const { Client, ContextMenuInteraction, ApplicationCommandType } = require('discord.js');
-const { pingBot } = require('../../Functions/Commands/Public/ping')
+const { execPing } = require('../../Functions/Commands/Public/ping')
 
 module.exports = {
     name: "Ping bot",
@@ -9,7 +9,7 @@ module.exports = {
      * @param { ContextMenuInteraction } interaction
      */
     run: async (client, interaction) => {
-        pingBot(client, interaction);
+        execPing(client, interaction);
     }
 
 }

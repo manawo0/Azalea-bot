@@ -1,6 +1,6 @@
 {
     "afkSystem": {
-      "mentionAfk": "Användaren gick AFK\n **Orsak**: status",
+      "mentionAfk": "user gick AFK time\n **Orsak**: status",
       "setAfkStatus": "**Gick AFK**",
       "setStatusAfk": "**Orsak**:",
       "setBotDoUserMentionAfk": "Jag ska berätta vem som nämner dig.",

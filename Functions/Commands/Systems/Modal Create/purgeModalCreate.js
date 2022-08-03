@@ -7,7 +7,7 @@ async function purgeModalCreate(client, interaction) {
         iconURL: interaction.user.displayAvatarURL({ dynamic: true }),
       })
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
-      .setFooter({ text: "Pyro Bot." });
+      .setFooter({ text: "Azalea." });
 
     if (!interaction.member.permissions.has(PermissionsBitField.Flags.ManageMessages)) {
       Embed.setDescription(

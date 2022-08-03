@@ -7,12 +7,12 @@
       "removeAfkStatus": "Din AFK status er blevet fjernet."
     },
     "LangSystem": {
-      "botLanguage": "Pyro's sprog er blevet ændret til: ",
-      "botLangNotSupported": "Du prøvede at bruge et sprog der ikke er understøttet af Pyro.",
+      "botLanguage": "Azalea's sprog er blevet ændret til: ",
+      "botLangNotSupported": "Du prøvede at bruge et sprog der ikke er understøttet af Azalea.",
       "supLangTitle": "**Tilgængelige sprog:**",
       "supLangs": "- Spanish (es)\n - English (en)",
       "howToUseTitle": "**Ændring af sprog**",
-      "howToUseDesc": "Hvis du ikke bruger valgene fra Pyro skal du bruge en landekode. f.eks.: **Til spansk ville det være es**.\n Her er alle landekoderne: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+      "howToUseDesc": "Hvis du ikke bruger valgene fra Azalea skal du bruge en landekode. f.eks.: **Til spansk ville det være es**.\n Her er alle landekoderne: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
       "howToUseHelp": "**Hjælp til sprog kommandoen**",
       "modalAfkReason": "Hvad er din grund til at være AFK?",
       "conextModalAfkToOtherPerson": "Du kan ikke gøre en anden person AFK, kun dig selv."

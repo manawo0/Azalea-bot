@@ -15,9 +15,9 @@ module.exports = {
     console.log(chalk.green(`Client is now logged in`));
 
     client.user.setActivity({
-      name: "/help | Pyro-v0.2.0-alpha", 
+      name: "/help | Azalea-v0.2.0-alpha", 
       type: ActivityType.Watching,
-      url: "https://slimy.gitbook.io/project-pyro/"
+      url: "https://slimy.gitbook.io/azalea/"
     })
 
     // Connect to db

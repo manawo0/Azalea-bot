@@ -1,0 +1,23 @@
+{
+  "afkSystem": {
+    "mentionAfk": "user odszedł od komputera time\n **powód**: status",
+    "setAfkStatus": "**Zaraz wracam**",
+    "setStatusAfk": "**Powód**:",
+    "setBotDoUserMentionAfk": "Powiadomie cię jeśli ktokolwiek cię oznaczy.",
+    "removeAfkStatus": "Status zaraz wracam został zdjęty."
+  },
+  "LangSystem": {
+    "botLanguage": "Język bota Azaela został zmieniony na: ",
+    "botLangNotSupported": "Ten język nie jest wspierany przez bota Azalela.",
+    "supLangTitle": "**Dostępne języki**",
+    "supLangs": "- Hiszpański (es)\n - Angielski (en)",
+    "howToUseTitle": "**Jak wybrać język**",
+    "howToUseDesc": "Jeśli twojego języka nie ma na liście bota Azalea, będziesz musiał go wprowadzić jako kod danego kraju. Np.: **Dla języka hiszpańskiego jest to es**.\n Pod tym linkiem znajdują się wszyskie kody językowe: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+    "howToUseHelp": "**How to use the Language Command**",
+    "modalAfkReason": "Jaki był powód twojego odejścia od komputera?",
+    "conextModalAfkToOtherPerson": "Nie możesz ustawić statusu Zaraz wracam dla innej osoby, tylko dla siebie."
+  },
+  "ping": {
+    "pingMsg": "Pong! Opoźnienie: "
+  }
+}

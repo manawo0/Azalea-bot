@@ -7,12 +7,12 @@
     "removeAfkStatus": "Ваш статус АФК был удален."
   },
   "LangSystem": {
-    "botLanguage": "Язык Пиро(Azalea) был изменен на: ",
-    "botLangNotSupported": "Вы пытались использовать язык, не поддерживаемый Пиро(Azalea).",
+    "botLanguage": "Язык Азалеа(Azalea) был изменен на: ",
+    "botLangNotSupported": "Вы пытались использовать язык, не поддерживаемый Азалеа(Azalea).",
     "supLangTitle": "**Поддерживаемые языки:**",
     "supLangs": "- Spanish (es)\n - English (en)",
     "howToUseTitle": "**Как использовать язык**",
-    "howToUseDesc": "Если вы не используете варианты, предоставляемые Пиро(Azalea), вам нужно указать язык как код страны. Ex: **для испанского было бы es**.\n Вот вам и все коды: https://ru.wikipedia.org/wiki/ISO_3166-2",
+    "howToUseDesc": "Если вы не используете варианты, предоставляемые Азалеа(Azalea), вам нужно указать язык как код страны. Ex: **для испанского было бы es**.\n Вот вам и все коды: https://ru.wikipedia.org/wiki/ISO_3166-2",
     "howToUseHelp": "**Как использовать языковую команду**",
     "modalAfkReason": "По какой причине ты АФК?",
     "conextModalAfkToOtherPerson": "Вы не можете поставить другого человека в качестве АФК, только себя."

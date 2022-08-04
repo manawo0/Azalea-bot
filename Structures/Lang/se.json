@@ -10,7 +10,7 @@
       "botLanguage": "Azalea's språket har ändrats till: ",
       "botLangNotSupported": "Du försökte använda ett språk som inte stöds av Azalea.",
       "supLangTitle": "**Tillgängliga språk:**",
-      "supLangs": "- Spanish (es)\n - English (en)",
+      "supLangs": "- Spansk (es)\n - Engelsk (en)",
       "howToUseTitle": "**Byte av språk**",
       "howToUseDesc": "Om du inte använder alternativen från Azalea måste du använda en landskod. t.ex.: **För spanska skulle det vara es**.\n Här är alla landskoder: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
       "howToUseHelp": "**Hjälp för språkkommandot**",

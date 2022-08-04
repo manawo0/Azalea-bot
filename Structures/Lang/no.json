@@ -1,0 +1,23 @@
+{
+    "afkSystem": {
+      "mentionAfk": "user gikk AFK time\n **Årsaken**: status",
+      "setAfkStatus": "**Gikk AFK**",
+      "setStatusAfk": "**Årsaken**:",
+      "setBotDoUserMentionAfk": "Jeg skal fortelle deg hvem som nevner deg.",
+      "removeAfkStatus": "AFK-statusen din er fjernet."
+    },
+    "LangSystem": {
+      "botLanguage": "Azalea's språk er endret til: ",
+      "botLangNotSupported": "Du prøvde å bruke et språk som ikke støttes av Azalea.",
+      "supLangTitle": "**Tilgjengelige språk:**",
+      "supLangs": "- Spansk (es)\n - Engelsk (en)",
+      "howToUseTitle": "**Endring av språk**",
+      "howToUseDesc": "Dersom du ikke bruker valgene fra Azalea, må du bruke en landskode. f.eks.: **For spansk ville det vært det es**.\n Her er alle landskodene: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+      "howToUseHelp": "**Hjelp til språkkommandoen**",
+      "modalAfkReason": "Hva er din grunn til å være AFK?",
+      "conextModalAfkToOtherPerson": "Du kan ikke AFK en annen person, bare deg selv."
+    },
+    "ping": {
+      "pingMsg": "Pong! Ventetid: "
+    }
+  }

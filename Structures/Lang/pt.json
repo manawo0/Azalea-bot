@@ -7,12 +7,12 @@
       "removeAfkStatus": "O teu estado de AFK foi removido."
     },
     "LangSystem": {
-      "botLanguage": "O idioma do Pyro foi alterado para: ",
-      "botLangNotSupported": "A línguagem selecionada não é suportada pelo Pyro.",
+      "botLanguage": "O idioma do Azalea foi alterado para: ",
+      "botLangNotSupported": "A línguagem selecionada não é suportada pelo Azalea.",
       "supLangTitle": "Idiomas suportados:",
       "supLangs": "- Espanhol (es)\n - Inglês (en)",
       "howToUseTitle": "Como mudar de idioma",
-      "howToUseDesc": "Se por acaso não quiseres usar as escolhas fornecidas pelo Pyro, precisarás de colocar o códigos do país. Ex: para espanhol seria es.\n Podes consultar os códigos aqui: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+      "howToUseDesc": "Se por acaso não quiseres usar as escolhas fornecidas pelo Azalea, precisarás de colocar o códigos do país. Ex: para espanhol seria es.\n Podes consultar os códigos aqui: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
       "howToUseHelp": "Como usar o comando para mudar idioma",
       "modalAfkReason": "Qual é o motivo de estares AFK?",
       "conextModalAfkToOtherPerson": "Não é possível mudar o estado de outra pessoa, somente o teu"

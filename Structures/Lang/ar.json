@@ -1,0 +1,23 @@
+{
+  "afkSystem": {
+    "mentionAfk": "time ذهب بعيدا عن الكمبيوتر user\n **السبب**: status",
+    "setAfkStatus": "**بعيد عن الكمبيوتر**",
+    "setStatusAfk": "**السبب**:",
+    "setBotDoUserMentionAfk": "سأخبرك من قام بذكر اسمك",
+    "removeAfkStatus": "تمت ازالة حالة بعدك عن الكمبيوتر"
+  },
+  "LangSystem": {
+    "botLanguage": "لغة بايرو تغيرت الى: ",
+    "botLangNotSupported": "لقد قمت بإختيار لغة غير مدعومة",
+    "supLangTitle": "**أللغات المدعومة:**",
+    "supLangs": "- الإسبانية \n -الإنجليزية",
+    "howToUseTitle": "**كيفية تغيير اللغة**",
+    "howToUseDesc": "إذا لم تجد لغتك ما بين اللغات المتوفرة من قبل بايرو, فيمكنك إدخال اختصار اللغة. على سبيل المثال: للإسبانية es.\n هنا تجد الإختصارات لجميع اللغات : https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+    "howToUseHelp": "**كيفية استخدام أمر تغيير اللغة**",
+    "modalAfkReason": "ما هو سبب بعدك عن الكمبيوتر",
+    "conextModalAfkToOtherPerson": "لا تستطيع جعل أحد غيرك بعيدعن الكمبيوتر"
+  },
+  "ping": {
+    "pingMsg": "سرعة الاستجابة: "
+  }
+}

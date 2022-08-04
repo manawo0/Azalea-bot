@@ -23,7 +23,7 @@ async function submitPurgeModal(client, interaction) {
 
   Embed.setColor("#008000")
     .setDescription(`Deleted ${size} messages`)
-    .setFooter({ text: `Pyro Bot.` });
+    .setFooter({ text: `Azalea.` });
 
   return interaction.reply({
     embeds: [Embed],

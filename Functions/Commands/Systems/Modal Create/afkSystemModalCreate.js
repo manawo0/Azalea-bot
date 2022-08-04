@@ -8,11 +8,10 @@ const {
 const { detectLang } = require('../../Systems/detectLangSystem')
 
 async function afkModalCreate(client, interaction) {
+  const LangImport = await detectLang(interaction.guild.id);
+  const Lang = require("../../"+LangImport);
+  
   if (interaction.targetId == interaction.user.id) {
-    
-    const LangImport = await detectLang(interaction.guild.id);
-    const Lang = require("../../"+LangImport);
-
     const Modal = new ModalBuilder()
       .setTitle("AFK Reason")
       .setCustomId("afkReasonModal");

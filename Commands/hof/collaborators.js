@@ -2,7 +2,7 @@ const { ApplicationCommandType, EmbedBuilder } = require("discord.js");
 
 module.exports = {
   name: "collabs",
-  description: "These are the legends that helped out with Pyro.",
+  description: "These are the legends that helped out with Azalea.",
   type: ApplicationCommandType.ChatInput,
   cooldown: 3000,
   run: async (client, interaction) => {
@@ -15,7 +15,7 @@ module.exports = {
 
         const EmbedAndy = new EmbedBuilder()
         .setTitle("aNdy")
-        .setDescription("Manages and created the official Pyro discord server.")
+        .setDescription("Manages and created the official Project: Pyro discord server.")
         .setFields({name: "Who is aNdy?", value: "aNdy the legends says that this natured power based boy is always with us."})
         .setColor("#62c134")
         .setThumbnail("https://cdn.discordapp.com/avatars/948544978026631168/328c4a5cd07b35d400d9a34a6e31dbee.webp?size=100")

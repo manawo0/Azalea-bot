@@ -4,7 +4,7 @@ async function execPurgeFunction(client, interaction) {
     const Embed = new EmbedBuilder()
         .setAuthor({name: interaction.user.tag, iconURL: interaction.user.displayAvatarURL({dynamic: true})})
         .setThumbnail(client.user.displayAvatarURL({dynamic: true}))
-        .setFooter({text: "Pyro Bot."})
+        .setFooter({text: "Azalea."})
 
         if(!interaction.member.permissions.has(PermissionsBitField.Flags.ManageMessages)){
             Embed

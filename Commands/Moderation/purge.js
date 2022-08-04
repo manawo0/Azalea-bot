@@ -1,5 +1,5 @@
 const {Client, CommandInteraction } = require('discord.js');
-const { execPurgeFunction } = require('../../Functions/Commands/Moderation/purgeFunction')
+const { execPurgeFunction } = require('../../Functions/Commands/Moderation/Messages/purgeFunction')
 module.exports = {
     name: "purge",
     description: "Purges an amount of messages",

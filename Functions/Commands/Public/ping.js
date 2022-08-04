@@ -5,7 +5,7 @@ async function execPing(client, interaction) {
   const Lang = require("../"+LangImport);
  
   interaction.reply({
-    content: `🏓 ${Lang.ping.pingMsg} **${Math.round(client.ws.ping)} ms**`,
+    content: `🏓 ${Lang.ping.pingMsg} **${Math.round(client.ws.ping)}**`,
   });
 }
 

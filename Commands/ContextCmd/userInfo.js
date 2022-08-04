@@ -1,15 +1,14 @@
 const { Client, ContextMenuInteraction, ApplicationCommandType } = require('discord.js');
-const { execPing } = require('../../Functions/Commands/Public/ping')
-
+const { execMembersInfo } = require('../../Functions/Commands/Moderation/Members/membersInfo')
 module.exports = {
-    name: "Ping bot",
+    name: "User Info",
     type: ApplicationCommandType.User,
     /**
      * @param { Client } client
      * @param { ContextMenuInteraction } interaction
      */
     run: async (client, interaction) => {
-        execPing(client, interaction);
+        execMembersInfo(client, interaction);
     }
 
 }

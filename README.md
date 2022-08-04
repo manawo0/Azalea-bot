@@ -1,7 +1,7 @@
-# Project: Pyro
+# Azalea
 
-![Reposiroty license](https://img.shields.io/github/license/project-pyro/project-pyro-bot?label=License&style=flat-square)
-![Repository version](https://img.shields.io/github/package-json/v/project-pyro/project-pyro-bot/main?style=flat-square)
+![Reposiroty license](https://img.shields.io/github/license/project-pyro/azalea-bot?label=License&style=flat-square)
+![Repository version](https://img.shields.io/github/package-json/v/project-pyro/azalea-bot/main?style=flat-square)
 <br>
 
 **Slime Commands NPM package version**
@@ -10,10 +10,10 @@
 ![SlimeCommands version](https://img.shields.io/npm/v/slimecommands?style=flat-square)
 <br>
 
-This is **Project: Pyro**, a bot aimed to have all in one commands to avoid having a bunch of bots with similar functions inside a server.
+This is **Azalea**, a bot aimed to have all in one commands to avoid having a bunch of bots with similar functions inside a server.
 
 Added a lot of languages.
-## What does Project: Pyro have to offer?
+## What does Azalea have to offer?
 - Completly unlocked functionalities, there's no payment for functions in this bot.
 - Completly open source, users can contribute to the bot and require changes as they please.
 - Multiserver functionalities and per server functions/permissions.
@@ -28,4 +28,4 @@ No worries! I've made a documentation just for you.
 
 You're a developer? You're a user? We have them both!
 
-[Project: Pyro official documentation](https://slimy.gitbook.io/project-pyro/)
+[Azalea official documentation](https://slimy.gitbook.io/azalea/)

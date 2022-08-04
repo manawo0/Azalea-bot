@@ -31,6 +31,10 @@ async function detectLang(guildId) {
   if(LangPerServer.LanguageID == "ar"){
     return "../../Structures/Lang/ar.json"
   }
+  
+  if(LangPerServer.LanguageID == "pl"){
+	  return "../../Structures/Lang/pl.json"
+  }
 }
 
 module.exports = { detectLang };

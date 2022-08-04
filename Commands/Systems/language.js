@@ -25,7 +25,8 @@ module.exports = {
             {name: "Swedish", value: "se"},
             {name: "Danish", value: "dk"},
             {name: "Arabic", value: "ar"},
-			{name: "Polish", value: "pl"}
+	    {name: "Polish", value: "pl"},
+  	    {name: "Norwegian", value: "no"}
           ],
         },
       ],
